@@ -1,0 +1,97 @@
+{
+  "name": "litalino/flarum-more-bbcode",
+  "description": "Adds more BBCode",
+  "keywords": [
+    "flarum",
+    "flarum extension",
+    "markdown",
+    "editor",
+    "bbcode"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.2.0",
+    "flarum/likes": "^1.8.0"
+  },
+  "authors": [
+    {
+      "name": "litalino",
+      "email": "info@khatvongsong.vn",
+      "role": "Co-development"
+    },
+    {
+      "name": "imeepo",
+      "email": "me@imeepo.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/litalino/flarum-more-bbcode/issues",
+    "source": "https://github.com/litalino/flarum-more-bbcode",
+    "forum": "https://discuss.flarum.org/d/33616-bbcode-more-bbcode"
+  },
+  "autoload": {
+    "psr-4": {
+      "Litalino\\MoreBBCode\\": "src/"
+    }
+  },
+  "homepage": "https://khatvongsong.vn",
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "BBCode More New",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-code",
+        "color": "#fff",
+        "backgroundColor": "#D3241C"
+      },
+      "optional-dependencies": [
+        "flarum/likes"
+      ]
+    },
+    "flarum-likes": {
+        "settingsInLikes": true,
+        "showInInLikes": true
+    },
+    "flarum-cli": {
+      "modules": {
+        "admin": true,
+        "forum": true,
+        "js": true,
+        "jsCommon": false,
+        "css": true,
+        "locale": true,
+        "gitConf": true,
+        "githubActions": true,
+        "prettier": true,
+        "typescript": false,
+        "bundlewatch": false,
+        "backendTesting": false,
+        "editorConfig": true,
+        "styleci": true
+      }
+    }
+  },
+  "repositories": [
+      {
+          "type": "path",
+          "url": "../../*/*"
+      }
+  ],
+  "require-dev": {
+    "flarum/phpstan": "*"
+  },
+  "scripts": {
+      "analyse:phpstan": "phpstan analyse",
+      "clear-cache:phpstan": "phpstan clear-result-cache"
+  },
+  "scripts-descriptions": {
+      "analyse:phpstan": "Run static analysis"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
