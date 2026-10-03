@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of litalino/flarum-more-bbcode.** Not for installation: use [Packagist](https://packagist.org/packages/litalino/flarum-more-bbcode) or the [upstream repository](https://github.com/Litalino/flarum-more-bbcode).
 
-**0** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^1.2.0`
+**27** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.6` | 2023-11-15 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.0.6) |
+| `1.0.7` | 2023-11-16 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.0.7) |
+| `1.1.0` | 2023-11-25 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.1.0) |
+| `1.2.0` | 2023-11-26 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.2.0) |
+| `1.3.0` | 2023-11-26 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.3.0) |
+| `1.3.1` | 2023-11-26 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.3.1) |
+| `1.3.2` | 2023-11-26 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.3.2) |
+| `1.3.3` | 2023-11-26 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.3.3) |
+| `1.3.4` | 2023-11-26 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.3.4) |
+| `1.3.5` | 2023-11-27 | `^1.2.0` | [Browse](https://github.com/flarchive/litalino-flarum-more-bbcode/tree/archive/v1.3.5) |
+
+[View all 27 versions](https://github.com/flarchive/litalino-flarum-more-bbcode/tags)
 
 Catalog entry: [packages/litalino-flarum-more-bbcode.json](https://github.com/flarchive/archive-index/blob/main/packages/litalino-flarum-more-bbcode.json)
 
